@@ -40,7 +40,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx
+        image: httpd
       # image: fabricioveronez/web-color:blue
       # image: fabricioveronez/web-color:green
         ports:
