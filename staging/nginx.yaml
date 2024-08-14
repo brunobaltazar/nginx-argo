@@ -9,7 +9,7 @@ spec:
     namespace: nginx
   source:
     repoURL: https://github.com/brunobaltazar/nginx-argo.git
-    path: staging
+    path: nginx-argo/staging
     targetRevision: HEAD
   project: default
   syncPolicy:
