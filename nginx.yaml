@@ -20,8 +20,8 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: fabricioveronez/web-color:blue
-      # image: fabricioveronez/web-color:green
+      # image: fabricioveronez/web-color:blue
+       image: fabricioveronez/web-color:green
         ports:
         - containerPort: 80
         resources:
