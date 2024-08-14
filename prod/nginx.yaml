@@ -11,7 +11,7 @@ spec:
     repoURL: https://github.com/brunobaltazar/nginx-argo.git
     path: prod
     targetRevision: HEAD
-  project: default
+  project: prod-nginx-argo-app
   syncPolicy:
     automated:
       prune: true        # Prune resources that are no longer in Git
