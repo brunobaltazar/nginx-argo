@@ -9,7 +9,7 @@ spec:
     namespace: nginx
   source:
     repoURL: https://github.com/brunobaltazar/nginx-argo.git
-    path: .
+    path: dev
     targetRevision: HEAD
   project: default
   syncPolicy:
